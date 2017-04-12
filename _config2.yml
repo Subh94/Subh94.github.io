@@ -1,7 +1,11 @@
 
 title: My Resume
 url: 'Subh94.github.io'
+<<<<<<< HEAD
 baseurl: '' #change it according to your repository name
+=======
+baseurl: 'Subh94.github.io' #change it according to your repository name
+>>>>>>> 869b5b9317191e5413d2ec790ee0a6144e57bb8d
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -9,7 +13,7 @@ baseurl: '' #change it according to your repository name
 #style: styles-3
 #style: styles-4
 #style: styles-5
-style: styles-6
+#style: styles-6
 
 
 #Profile information
