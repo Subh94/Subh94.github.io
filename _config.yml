@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'Subh94.github.io'
-baseurl: '/' #change it according to your repository name
+baseurl: '' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -20,8 +20,8 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 #sidebar links
 email: agarwal1994@live.in
 phone: 9816479040
-#website: blog.webjeda.com #do not add http://
-#linkedin: sk
+website: skumaragarwal.com #do not add http://
+linkedin: subhashka
 github: Subh94
 twitter: '@agarwalsk091'
 
