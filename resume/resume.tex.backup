@@ -1,0 +1,140 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume
+\documentclass[margin,line]{resume}
+\usepackage{url}
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Nikhil Garg}
+\begin{resume}
+
+%__________________________________________________________________________________________________________________
+	% Contact Information
+	\section{\mysidestyle Contact\\Information}
+
+	Third Year Undergraduate Student\hfill +91 980 534 5728\\%
+	Indian Institute of Technology Kamand\hfill nikhilgarg2@gmail.com\\%
+	Mandi(H.P.), India\hfill %
+
+%__________________________________________________________________________________________________________________
+	% Interests
+	%\section{\mysidestyle Interests}
+
+	%Programming, Software Development\\Machine Learning and its Applications%
+
+%__________________________________________________________________________________________________________________
+	% Education
+	\section{\mysidestyle Education}
+
+	\textbf{Indian Institute of Technology Mandi}, India\\%
+	\textsl{B.Tech in Computer Science and Engineering}\hfill August 2012 -- present\vspace{-3mm}\\%
+	\begin{list2}%
+		\item Cumulative Grade Point Average: \textbf{8.4}%
+		
+		\item Expected graduation date: \textbf{June 2016}%
+	\end{list2}%
+	
+	\textbf{Bal Niketan Model School,Chandigarh}, India\\%
+	\textsl{Senior Secondary(C.B.S.E.)}\hfill 2012\vspace{-3mm}\\%
+	\begin{list2}%
+		\item Cumulative Average: \textbf{89\%}%
+		
+	\end{list2}%
+	
+	\textbf{The British Co-Ed High School,Patiala}, India\\%
+	\textsl{Secondary(I.C.S.E.)}\hfill 2010\vspace{-3mm}\\%
+	\begin{list2}%
+		\item Cumulative Average: \textbf{92.4\%}%
+		
+	\end{list2}%
+%__________________________________________________________________________________________________________________
+	% Undergraduate Thesis
+	%\section{\mysidestyle Undergraduate\\Thesis}
+	%\textbf{Deterministic Execution in Multithreaded Applications}\vspace{0.5mm}\\%
+	%\textsl{Advisor: Prof. Sorav Bansal, IIT Delhi}\hfill(August, 2013 -- present)\vspace{1mm}\\%
+	%Writing multithreaded programming is extremely difficult, the key problem being non-determinism which complicates debugging, 		testing and reproducing errors. Deterministic execution is a well studied work-around for this problem. We are working with 		Dthreads, a replacement for the standard pthreads library, that makes C/C++ applications deterministic. The aim of our 				project is to improve efficiency of dthreads and reduce its overhead with respect to the pthreads library.%
+
+%________________________________________________________________________________________________________________
+% Internships And Projects
+	\section{\mysidestyle Internships And\\Projects}
+	
+	\textbf{Price Comparison Engine}\vspace{0.5mm}\\%
+	\textsl{Intern at Healthkart.com()}\hfill(June, 2014 -- Aug, 2014)\vspace{1mm}\\%
+	This work aimed at building an automated system, which on being provided with css selectors of attributes on different websites, crawls the websites, extracts the information and compares the prices of products on websites.
+	The project was Developed using Python, Django Web-framework, Selenium webdriver, MySQL, CSS and HTML.
+	\begin{list2}
+	\item Tokenizing the sentence and matching the words was the main algorithm used for matching. MRP range was also used for matching.
+	\item Achieved a very high accuracy of around 90\%.	
+	\end{list2}
+	
+	\textbf{Captcha Decoder}\vspace{0.5mm}\\%	
+	\textsl{Self}\hfill(March, 2014 -- May, 2014)\vspace{1mm}\\%
+	The aim of the project was to build system that can decode the Captchas. The whole code was written in Python.
+	\begin{list2}
+	\item The background was removed using PIL libraries, and then the characters were matched.
+	\item Single Coloured background had an accuracy of around 50\% and for multi-coloured, it was about 24\%.
+	\end{list2}
+	
+	\textbf{Ticket Availability of HRTC buses}\vspace{0.5mm}\\%
+	\textsl{Self}\hfill(Aug 2014)\vspace{1mm}\\%
+	I worked on the problem that notifies a user if a ticket is available in HRTC bus. It was Developed used Python and Selenium webdriver.
+	\begin{list2}	
+	\item  It is most useful when all the buses are full, and even if one seat gets cancelled, the user gets notification at the instant.%
+	\end{list2}	
+	
+	\textbf{Website of ACM Student Chapter, IIT Mandi}\vspace{0.5mm}\\%
+	\textsl{Self}\hfill(Aug, 2014 -- present)\vspace{1mm}\\%
+	We are developing a website for ACM Student Chapter, IIT Mandi. The technologies used are Bootstrap, HTML and CSS.
+	
+	
+	\section{\mysidestyle Course\\Projects}
+	\textbf{Canteen Management System}\hfill \textsl{Database Practicum}\vspace{1.0mm}\\%
+	Implemented argument passing, system calls, virtual memory (paging, stack growth, memory mapped files) %
+	\& filesystem (indexed \& extensible files, subdirectories, buffer cache) for PintOS.%
+	
+	\textbf{Course Registration Portal}\hfill \textsl{Database Practicum}\vspace{1.0mm}\\%
+	Developed a device for visually impaired with object locator and classifier. Integrated it with human, %
+	colour, ambient light, depth and temperature detection modules.%
+	
+	\textbf{Intelligent Railway Crossing}\hfill \textsl{Design Practicum}\vspace{1.0mm}\\%
+	Designed a lexer (in ML-Lex), a parser (in ML-Yacc) and an unambiguous grammar to build a small prolog %
+	interpreter (in SML).%
+
+%__________________________________________________________________________________________________________________
+	% Honours and Awards
+	\section{\mysidestyle Technical\\Skills}
+	\textbf{Languages}: C++, C, Python, HTML, CSS, Javascript, PHP\\%
+	\textbf{Softwares and Tools}: Git, Selenium webdriver, MySQL, LateX, Django web-framework, awk\\%
+	\textbf{Platforms}: Windows, Linux(Ubuntu), Mac %
+%__________________________________________________________________________________________________________________
+	% Scholastic Achievements	
+	\section{\mysidestyle Scholastic\\Achievements} 
+	\textbf{IITJEE (2012):} Secured AIR 3958 in IITJEE 2012 among more than 0.5 million aspirants.\vspace{0.5mm}\\%
+	\textbf{AIEEE (2012):} Secured AIR 6500 in AIEEE 2012 among more than 1 million aspirants.\vspace{0.5mm}\\%
+	\textbf {INChO (2012): }Qualified for Indian National Chemistry Olympiad (among top 300 candidates).\vspace{0.5mm}\\%
+	
+	%________________________________________________________________________________________________________________
+    % Competitive Programming
+\section{\mysidestyle Relevant\\Coursework}
+	\textbf{Computer Science:} Data Structures, Computation For Engineers, Computer Organization*, Paradigms of Programming Languages, Pattern Recognition*, Formal Languages and Automata Theory*, Database Practicum, System Practicum*\vspace{0.5mm}\\%
+	\textbf{Mathematics:} Real Analysis and Differential Equations, Discrete Mathematics, Linear Algebra, Probability and Random Variables, Computational Financial Modelling*
+
+
+%______________________________________________________________________________________________________________________
+	\section{\mysidestyle Position Of\\Responsibility}
+	
+	\textbf{Coordinator Of Programming Club}\hfill(Sep, 2013 -- present)\vspace{0.5mm}\\%
+	A club dedicated to coding related activities like conducting programming competitions and tutorials on a regular basis.\vspace{1.5mm}\\%
+	\textbf{Vice-Chair, ACM Student Chapter, IIT Mandi}\hfill(May, 2014 -- present)\vspace{0.5mm}\\%
+	\textbf{Treasurer/Secretary, ACM Student Chapter, IIT Mandi}\hfill(Nov, 2013 -- May, 2014)\vspace{0.5mm}\\%
+	ACM Student Chapter manages all the activities of The ACM like Distinguished Speaker Program, Ice-Cream talks, etc.\vspace{1.5mm}\\%
+	\textbf{Member Of Guidance And Counselling Services}\hfill(May, 2013 -- present)\vspace{0.5mm}\\%
+	It is a voluntary service aimed at helping the students to deal with the various problems at the college and the hostel.\vspace{1.5mm}\\%
+	\textbf{Coordinator Hiking And Trekking Club}
+%______________________________________________________________________________________________________________________
+
+\end{resume}
+\end{document}
+
+%______________________________________________________________________________________________________________________
+% EOF

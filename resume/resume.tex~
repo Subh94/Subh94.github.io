@@ -1,0 +1,158 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume
+\documentclass[a4paper,margin,line]{resume}
+\usepackage{url}
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Nikhil Garg}
+\begin{resume}
+
+%__________________________________________________________________________________________________________________
+	% Contact Information
+	\section{\mysidestyle Contact\\Information}
+
+	Third Year Undergraduate Student\hfill +91 980 534 5728\\%
+	Indian Institute of Technology Madi\hfill nikhilgarg2@gmail.com\\%
+	Mandi(H.P.), India\hfill %
+
+%__________________________________________________________________________________________________________________
+	% Interests
+	%\section{\mysidestyle Interests}
+
+	%Programming, Software Development\\Machine Learning and its Applications%
+
+%__________________________________________________________________________________________________________________
+	% Education
+	\section{\mysidestyle Education}
+
+	\textbf{Indian Institute of Technology Mandi}, India\\%
+	\textsl{B.Tech in Computer Science and Engineering}\hfill August 2012 -- present\vspace{-3mm}\\%
+	\begin{list2}%
+		\item Cumulative Grade Point Average: \textbf{8.2}%
+		
+		\item Expected graduation date: \textbf{June 2016}%
+	\end{list2}%
+	
+	\textbf{Bal Niketan Model School}, Chandigarh, India\\%
+	\textsl{Senior Secondary(C.B.S.E.)}\hfill 2012\vspace{-3mm}\\%
+	\begin{list2}%
+		\item Cumulative Average: \textbf{89\%}%
+		
+	\end{list2}%
+	
+	\textbf{The British Co-Ed High School}, Patiala, India\\%
+	\textsl{Secondary(I.C.S.E.)}\hfill 2010\vspace{-3mm}\\%
+	\begin{list2}%
+		\item Cumulative Average: \textbf{92.4\%}%
+		
+	\end{list2}%
+%__________________________________________________________________________________________________________________
+
+	\section{\mysidestyle Undergraduate\\Thesis}
+	\textbf{Enhanced Index Tracking}\vspace{0.5mm}\\%
+	\textsl{Supervisor: Prof. Manoj Thakur, IIT Mandi}\hfill(August, 2015 -- present)\vspace{1mm}\\%
+	Index tracking consists of reproducing the performance of a stock-market index by investing in a subset of the stocks included in the index.  All the code for this project is being written in R.
+	\begin{list2}
+	\item The major problem in the project to be tackled is selecting ’k’ stocks out of available ’n’ stocks.
+	\item The \textbf{combinatorial problem} of identifying the assets is solved by heuristic algorithm.
+	\item Also, the \textbf{desired return and risk} are to taken care of while selecting the stocks.
+	\item Developing a \textbf{back testing framework}  to check the portfolio performance.
+	\item Developed a framework which predicts the possibilities of the \textbf{future data}.
+	\end{list2}
+%________________________________________________________________________________________________________________
+% Internships And Projectsjectee
+	\section{\mysidestyle Internships And\\Projects}
+	
+	\textbf{Aadhaar Card OAuth Server}\vspace{0.5mm}\\
+	\textsl{Khosla Labs}\hfill(Dec, 2014 -- Feb, 2015)\vspace{1mm}\\
+Developed a server which provided \textbf{Sign-in with Aadhaar Card} service. Developed this product using Python, Django Web-framework, and Twitter - Bootstrap.
+\begin{list2}
+\item Implemented the protocols of \textbf{OAuth2.0}.
+\item Retrieved the data from the Aadhaar database, using \textbf{OTP} and/or \textbf{Biometrics}. \item Stored the retrieved data in a local database.
+\item Can be used for \textbf{identity verification} and thus can help reduce a lot of frauds.
+\end{list2}
+	
+	
+	
+	\textbf{Price Comparison Engine}\vspace{0.5mm}\\%
+	\textsl{Healthkart.com(Bright Lifecare Pvt Ltd)}\hfill(June, 2014 -- Aug, 2014)\vspace{1mm}\\%
+	Built an \textbf{automated system}, which on fed with css selectors of attributes, \textbf{crawls} the websites, \textbf{extracts} the information and \textbf{compares the prices} of similar products on different e-commerce websites.
+	 Developed this project using Python, Django Web-framework, Selenium Webdriver, MySQL, CSS and HTML.
+	\begin{list2}
+	\item \textbf{Tokenised} the sentence and \textbf{matched} the words for identifying the similar products. 
+	\item Had also used \textbf{M.R.P. range} as a parameter.
+	\item Achieved a high \textbf{accuracy of 90\%}  of matching the products.	
+	\end{list2}
+	
+	\section{\mysidestyle Course\\Projects}
+	\textbf{Globalone}\hfill \textsl{Information And Database Systems}\vspace{1.0mm}\\%
+	Built an \textbf{interactive organized photo base}, which had features like upload images, \textbf{buy/sell images}, \textbf{tag based autocomplete search}, like or dislike, \textbf{paginated feeds}. Developed this app using Django web-framework, MySQL, HTML5, BootStrap CSS, AJAX. Won the \textbf{first prize} out of \textbf{15 teams}, for this project.\\%
+	
+	\textbf{Course Registration Portal}\hfill \textsl{Database Practicum}\vspace{1.0mm}\\%
+	Devised an app for \textbf{online add/drop courses}, \textbf{grading}, a panel for teachers for \textbf{regulating the course} and automatically generating the \textbf{student ID card}. Used  PHP, MySQL, CSS/HTML, JavaScript and AJAX to develop this app.\\%
+	
+	
+	\textbf{Intelligent Railway Crossing}\hfill \textsl{Design Practicum}\vspace{1.0mm}\\%
+	Developed a working prototype which \textbf{closed the gates} of the railway crossing when a train is approached the crossing,  \textbf{opened the gates} when the train has crossed the crossing, gave \textbf{visual and audio warning} before the closing of the gates to the people who are %
+	about to cross  the railway line and also issued a warning if any \textbf{person is caught inside}. Used C, Arduino for this project.%
+
+%__________________________________________________________________________________________________________________
+	% Honours and Awards
+	\section{\mysidestyle Technical\\Skills}
+	\textbf{Languages}: C, C++, Python, PHP\\%
+	\textbf{Web Development}: HTML, CSS, Javascript, Bootstrap\\%
+ 	\textbf{Database Management}: MySQL\\%
+ 	\textbf{Operating System}: Windows, Linux(Ubuntu), Mac \\%
+ 	\textbf{Misc.}: Selenium webdriver, \LaTeX\ , Django web-framework, Bash scripting, Gnuplot, Matlab, R\\%
+	
+	%__________________________________________________________________________________________________________________
+	% Scholastic Achievements	
+
+	%________________________________________________________________________________________________________________
+    % Competitive Programming
+
+
+
+%______________________________________________________________________________________________________________________
+	\section{\mysidestyle Position Of\\Responsibility}
+	
+	\textbf{Coordinator, Programming Club, IIT Mandi}\hfill(Sep, 2013 --April, 2015)\vspace{0.5mm}\\%
+	Organized various Programming Club activities like conducting \textbf{programming competitions}, \textbf{tutorials}, etc. on a regular basis.\vspace{1.5mm}\\%
+	\textbf{Chair, ACM Student Chapter, IIT Mandi}\hfill(May, 2014 -- April, 2015)\vspace{0.5mm}\\%
+	%\textbf{Treasurer/Secretary, ACM Student Chapter, IIT Mandi}\hfill(Nov, 2013 -- May, 2014)\vspace{0.5mm}\\%
+	Served as the Chairperson of ACM Chapter, IIT Mandi which was preceeded by the roles of \textbf{Vice Chairperson and Treasurer} of ACM Chapter, IIT Mandi. Successfully organized many events such as \textbf{Distinguished Speaker Program}, \textbf{Ice-Cream talks}, etc.\vspace{1.5mm}\\%
+	\textbf{Member, Guidance And Counselling Services, IIT Mandi}\hfill(May, 2013 -- present)\vspace{0.5mm}\\%
+	GCS is a \textbf{voluntary service} aimed at helping the students to deal with the various problems at the college and the hostel. Served as a \textbf{mentor} for first year students
+	and helped them getting acquainted with college studies and environment.\vspace{1.5mm}\\%
+	\textbf{Coordinator, Hiking And Trekking Club}\hfill(Sep, 2012 -- April, 2013)\vspace{0.5mm}\\%
+	Managed the club which was responsible for organizing activities such as \textbf{hiking, trekking}, etc.
+	
+	\section{\mysidestyle Relevant\\Coursework}
+	\textbf{Computer Science:} Data Structures, Computation For Engineers, Computer Organization, Paradigms of Programming, Pattern Recognition, Formal Languages And Automata Theory, Information And Database Systems, Communicating Distributed Processes, Data Mining For Decision Making. \vspace{0.5mm}\\%
+	\textbf{Mathematics:} Real Analysis and Differential Equations, Discrete Mathematics, Linear Algebra, Probability and Random Processes, Computational Financial Modeling, Mathematics For Financial Engineering.
+%______________________________________________________________________________________________________________________
+\section{\mysidestyle Extra\\Curriculars}
+
+\begin{list2}
+	\item Represented IIT Mandi in the \textbf{finals of Capture The Flag} event (\textbf{Build The Shield, 2015}) organized by \textbf{Microsoft India}.
+	\item 	Social Service: Taught children of rural areas in an initiative by \textbf{Prayas}, IIT Mandi
+	\item Represented school in \textbf{Inter School Quiz competition}, held in Patiala.
+	\end{list2}
+	
+	%\section{\mysidestyle References}
+	
+%	\textbf{Dr. Dileep A. D.}\\
+%	Assistant Professor, IIT Mandi\\
+%	Email : addileep@iitmandi.ac.in
+	
+	
+%	\textbf{Gaurav Agarwal}\vspace{0.5mm}\\%
+%	Chief Technology Officer, healthkart.com\\
+%	Email : gaurava@gmail.com
+	 
+	
+\end{resume}
+\end{document}
+%______________________________________________________________________________________________________________________
+% EOF
